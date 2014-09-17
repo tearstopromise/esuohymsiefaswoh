@@ -1662,8 +1662,7 @@ li.ui-block-e {
 [class*="ui-block-"] > button.ui-btn-inline,
 [class*="ui-block-"] > button.ui-btn-icon-notext,
 .ui-grid-solo > [class*="ui-"] {
-	margin-right: .3125em;
-	
+
 }
 .ui-grid-a > .ui-block-a,
 .ui-grid-a > .ui-block-b {
@@ -1815,8 +1814,8 @@ li.ui-block-e {
 	z-index: 1;
 }
 /* fixes gaps caused by subpixel problem */
-.ui-navbar li:last-child  {
-	margin-right: -4px;
+.ui-navbar li:last-child .ui-btn {
+	
 }
 .ui-navbar li:last-child .ui-btn:after {
 	margin-right: 4px;
